@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Business Demo Website</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <!-- CSS FILE -->
+  <link rel="stylesheet" href="style.css" />
 
+  <!-- GOOGLE FONT -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
@@ -29,13 +33,10 @@
     </div>
 
     <div class="nav-links">
-
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Reviews</a>
-      <a href="#">Contact</a>
-
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
     </div>
 
   </nav>
@@ -51,8 +52,7 @@
       </span>
 
       <h1>
-        Modern Website
-        For Your Business
+        Modern Website For Your Business
       </h1>
 
       <p>
@@ -62,11 +62,11 @@
 
       <div class="hero-buttons">
 
-        <a href="#" class="btn-primary">
+        <a href="#contact" class="btn-primary">
           Get Started
         </a>
 
-        <a href="#" class="btn-whatsapp">
+        <a href="https://wa.me/919999999999" class="btn-whatsapp">
           WhatsApp Us
         </a>
 
@@ -76,7 +76,32 @@
 
     <div class="hero-right">
 
-      <img src="hero-image.jpg" alt="Business">
+      <img src="hero-image.jpg" alt="Business Image">
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="section" id="about">
+
+    <div class="section-heading">
+      <span>ABOUT</span>
+      <h2>Professional Business Website</h2>
+    </div>
+
+    <div class="about-box">
+
+      <p>
+        This is a premium business landing page demo designed for modern clinics,
+        laboratories, salons, gyms, dental clinics and local businesses.
+      </p>
+
+      <p>
+        It includes professional UI design, WhatsApp integration,
+        review sections and mobile responsive layouts.
+      </p>
 
     </div>
 
@@ -84,31 +109,32 @@
 
   <!-- SERVICES -->
 
-  <section class="section">
+  <section class="section light-bg" id="services">
 
     <div class="section-heading">
 
       <span>SERVICES</span>
 
-      <h2>
-        What We Offer
-      </h2>
+      <h2>What We Offer</h2>
 
     </div>
 
     <div class="services-grid">
 
       <div class="card">
+        <div class="icon">🌐</div>
         <h3>Premium Design</h3>
         <p>Modern and clean website layouts.</p>
       </div>
 
       <div class="card">
+        <div class="icon">📱</div>
         <h3>WhatsApp Integration</h3>
         <p>Direct customer communication support.</p>
       </div>
 
       <div class="card">
+        <div class="icon">⚡</div>
         <h3>Mobile Responsive</h3>
         <p>Perfectly optimized for all devices.</p>
       </div>
@@ -119,15 +145,13 @@
 
   <!-- REVIEWS -->
 
-  <section class="section light-bg">
+  <section class="section" id="reviews">
 
     <div class="section-heading">
 
       <span>REVIEWS</span>
 
-      <h2>
-        Client Testimonials
-      </h2>
+      <h2>Client Testimonials</h2>
 
     </div>
 
@@ -135,7 +159,7 @@
 
       <div class="review-card">
 
-        <h3>★★★★★</h3>
+        <div class="stars">★★★★★</div>
 
         <p>
           Excellent website and very professional service.
@@ -147,10 +171,22 @@
 
       <div class="review-card">
 
-        <h3>★★★★★</h3>
+        <div class="stars">★★★★★</div>
 
         <p>
           Very responsive and premium quality design.
+        </p>
+
+        <strong>- Client Name</strong>
+
+      </div>
+
+      <div class="review-card">
+
+        <div class="stars">★★★★★</div>
+
+        <p>
+          The design looks modern and attractive.
         </p>
 
         <strong>- Client Name</strong>
@@ -163,15 +199,13 @@
 
   <!-- CONTACT -->
 
-  <section class="section">
+  <section class="section light-bg" id="contact">
 
     <div class="section-heading">
 
       <span>CONTACT</span>
 
-      <h2>
-        Let's Build Your Website
-      </h2>
+      <h2>Let's Build Your Website</h2>
 
     </div>
 
@@ -183,7 +217,7 @@
 
       <textarea rows="5" placeholder="Your Message"></textarea>
 
-      <button>
+      <button type="submit">
         Send Message
       </button>
 
@@ -198,7 +232,7 @@
     <h3>Business Name</h3>
 
     <p>
-      Professional Business Website Demo
+      Premium Business Website Demo
     </p>
 
   </footer>
